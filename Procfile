@@ -1,1 +1,1 @@
-web: python website/manage.py runserver 84.10.169.59:$PORT
+web: gunicorn mb_project.wsgi --log-file
